@@ -1,0 +1,141 @@
+
+/************sign in**********/
+
+.body
+{
+   background-color:bisque;
+}
+
+
+
+.fieldset{
+ 
+    border: 3px black solid;
+}
+.hr{
+    border: 1px solid black;
+}
+#submit1{
+    margin-left: 70px; 
+    margin-bottom: 10px;
+}
+.blood
+{
+    
+height: 120px;
+font-size: 100px;
+text-align: center;
+color:black;
+margin-top: -130px;
+
+}
+.drop
+{
+margin-left: -5%;
+padding-left: 310px;
+padding-top: 10px;
+}
+
+.logo
+{
+
+    margin-top: 80px;
+    margin-left: 200px;
+}
+
+.f1{
+    border: 1px black solid;
+    .margin-top: -10%;
+    }
+
+    
+    .signin
+    
+      {
+
+        
+        width: 350px;
+          margin-top: -250px;
+          float: right;
+           margin-right: 125px;
+      }
+      .hr{
+          border: 1px solid black;
+      }
+      #submit1{
+          margin-left: 70px; 
+          margin-bottom: 10px;
+      }
+    .left
+    {
+      margin-right: 10%;
+    }
+    
+    /*
+    
+    body {
+  background-image: url(img/signup.jpg);
+  width: 100%;
+  height: 100%;
+  font-family: "Poppins", sans-serif;
+}
+.form-container {
+  
+  /*padding: 10px 30px 10px 30px;*/
+/*
+  -webkit-box-shadow: 1px 1px 19px 4px rgba(13, 1, 13, 1);
+  -moz-box-shadow: 1px 1px 19px 4px rgba(13, 1, 13, 1);
+  box-shadow: 1px 1px 19px 4px rgba(13, 1, 13, 1);
+  margin-bottom: 2vh;
+}
+*/
+
+/*
+label {
+  color: currentColor;
+  font-size: 20px;
+}
+*/
+/*
+.headd {
+  color: #fff;
+  font-size: 25px;
+}
+{
+
+#imglogo   margin-left: 1px;
+}
+/*
+#exampleCheck11 {
+  margin-top: 10px;
+  width: 1%;
+}
+.btnpd {
+  margin-top: 5%;
+}
+
+.hrs {
+  border: 1px solid #fff;
+}
+.log {
+  color: #fff;
+  size: 30px;
+}
+.log:hover {
+  color: #222;
+}
+
+.error {
+  text-align: center;
+  color: red;
+  font-family: "Times New Roman", Times, serif;
+  font-size: larger;
+  background-color: #fff;
+}
+.success {
+  text-align: center;
+  color: green;
+  font-family: "Times New Roman", Times, serif;
+  font-size: larger;
+  background-color: #fff;
+}

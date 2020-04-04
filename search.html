@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Blood Bank</title>
+
+    <link rel="shortcut icon" href="11.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="search.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+
+</head>
+
+<body class="body">
+
+    <div class="drop">
+        <img src="slogn.png" width="160" height="100">
+
+    </div>
+    <div class="blood">
+        <p style="font-family: 'Times New Roman', Times, serif">Blood Bank</p>
+    </div>
+
+    <hr class="hr">
+
+    <div class="topnav">
+
+        <a href="search.html">Search Donor </a>
+        <a href="registerdonor.html">Register Donor</a>
+        <a href="bloodtips.html">Blood tips</a>
+        <a href="aboutus.html">About Us</a>
+        <a href="contactus.html">Contact Us</a>
+        <a href="login.php" style="font-size: 10px; margin-left:5%;">log Out</a>
+        </nav>
+    </div>
+
+    <div class="searchbycity">
+        
+        <font style="color:white">
+            <h4 style="margin-top: -80px">Search Blood Donors</h4>
+
+
+            <label for="cityId">
+                <h5 style="font-family: 'Times New Roman', Times, serif">Choose City</h5>
+            </label>
+        </font>
+        <form action="result.php">
+        <select name="City" id="cityId" style="width: 150px; height: 30px;">
+                
+                <option value=""></option>
+                <option value="city1" style="font-size: large">Pune</option>
+                <option value="city1" style="font-size: large">Nasik</option>
+                <option value="city1" style="font-size: large">Mumbai</option>
+            </select>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;<button type="submit" class="btn btn-success">Search Donor</button>
+        </form>
+            
+            <img src="searchdonorimg.png"  width="400px" height="200px" style="margin-left: 650px ;margin-top: -40px">      
+        <font style="color: white">
+            <h3 style="margin-top: -60px">
+                Want to become a blood donor?
+                <form action="registerdonor.html">
+                <input type="submit" class="btn btn-primary" value=" Register Now" style="margin-left:px"> </form>
+            </h3>
+
+    </div>
+
+</body>
+
+</html>
